@@ -1,0 +1,143 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+/*main container */
+.container{
+     
+     background-color:rgb(245,245,245);
+     max-width: 100%;
+     height: 925px;
+} 
+/* upper head*/
+.head{
+     /*border: 2px solid #ccc;*/
+     height: 100px;
+     background-color: white;
+}
+/*video section*/
+.video{
+     font-family: sans-serif;
+     display: inline-block;
+     position: relative;
+     left: 170px;
+     margin-top: 20px;
+     font-weight: bolder;
+     color: #7b7b7b;
+}
+/*search box*/
+.Search{
+     display: inline-block;
+     position: relative;
+     left: 200px;
+     top: 180px;
+}
+
+#searchBox{
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     width: 270%;
+}
+/*input box styling*/
+input[type=text], select {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: white;
+  color:rgb(68,68,68);
+  font-weight: bold;
+}
+/*Or styling*/
+h4{
+     position: relative;
+     top: 250px;
+     left: 250px;
+     display: inline-block;
+     padding: 5px;
+     font-size: 15px;
+     text-align: center;
+}
+
+/*upload box styling*/
+.upload {
+     position: relative;
+     left: 295px;
+     top: 250px;
+     border: 1px solid #ccc;
+     width: 230px;
+     height: 230px;
+     text-align: center;
+     background-color: white;
+     border-radius: 5px;
+     
+}
+.upload h3{
+     color: black;
+     margin-top: 110px;
+     font-weight: 900;
+     
+}
+
+/*second container for students,  setting*/
+.main2{
+     width: 150px;
+     height: 943px;
+     background-color: white;
+     position: relative;
+     right: 300px;
+     bottom: 580px;
+     text-align: center;
+     box-shadow:4px 4px 20px grey;
+}
+/*2nd container icons*/
+.icon{
+     width: 150px;
+     height: 120px;
+     /*border: 1px solid #ccc;*/
+     color: #7b7b7b;
+     
+}
+img.icn{
+     margin-top: 40px;
+}
+img.stu,img.set,img.lsn{
+     margin-top: 20px;
+}
+/*2nd container students styling*/
+.student {
+     width: 150px;
+     height: 150px;
+     border: 1px solid #ccc;
+     text-align: center;
+     color: #7b7b7b;
+     font-family: 'Roboto', sans-serif;
+}
+/* Vertical Line*/
+.vl{
+     border-left: 10px solid #668bf6;
+     height: 150px;
+     float: left;
+}   
+
+/*2nd container lesson section*/     
+.lesson {
+     width: 150px;
+     height: 150px;
+     background-color: #6dbfe86c;
+     /*border: 1px solid #ccc;*/
+     color: #7b7b7b;
+     font-family: 'Roboto', sans-serif;
+
+}
+/*2nd container setting section*/
+.setting{
+     width: 150px;
+     height: 150px;
+     /*border: 1px solid #ccc;*/
+     color: #7b7b7b;
+     font-family: 'Roboto', sans-serif;
+}
